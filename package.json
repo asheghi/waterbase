@@ -1,0 +1,27 @@
+{
+  "name": "water-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keystonejs/adapter-mongoose": "^10.1.2",
+    "@keystonejs/app-admin-ui": "^7.3.13",
+    "@keystonejs/app-graphql": "^6.2.1",
+    "@keystonejs/auth-password": "^6.0.0",
+    "@keystonejs/fields": "^21.0.1",
+    "@keystonejs/keystone": "^18.1.0",
+    "apollo-server": "^2.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "graphql-playground-middleware-express": "^1.7.22",
+    "object-hash": "^2.1.1",
+    "subscriptions-transport-ws": "^0.9.18"
+  }
+}

@@ -1,0 +1,313 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+    query: Query
+    mutation: Mutation
+    subscription: Subscription
+}
+
+" A keystone list "
+type Book {
+    """
+
+    This virtual field will be resolved in one of the following ways (in this order):
+    1. Execution of 'labelResolver' set on the Book List config, or
+    2. As an alias to the field set on 'labelField' in the Book List config, or
+    3. As an alias to a 'name' field on the Book List (if one exists), or
+    4. As an alias to the 'id' field on the Book List.
+    """
+    _label_: String
+    author: String
+    date: String
+    id: ID!
+    name: String
+}
+
+type Mutation {
+    " Create a single Book item. "
+    createBook(data: BookCreateInput): Book
+    " Create multiple Book items. "
+    createBooks(data: [BooksCreateInput]): [Book]
+    " Delete a single Book item by ID. "
+    deleteBook(id: ID!): Book
+    " Delete multiple Book items by ID. "
+    deleteBooks(ids: [ID!]): [Book]
+    " Update a single Book item by ID. "
+    updateBook(data: BookUpdateInput, id: ID!): Book
+    " Update multiple Book items by ID. "
+    updateBooks(data: [BooksUpdateInput]): [Book]
+}
+
+type Query {
+    " Search for the Book item with the matching ID. "
+    Book(where: BookWhereUniqueInput!): Book
+    " Retrieve the meta-data for the Book list. "
+    _BooksMeta: _ListMeta
+    " Perform a meta-query on all Book items which match the where clause. "
+    _allBooksMeta(first: Int, orderBy: String, search: String, skip: Int, sortBy: [SortBooksBy!], where: BookWhereInput): _QueryMeta
+    " Retrieve the meta-data for all lists. "
+    _ksListsMeta(where: _ksListsMetaInput): [_ListMeta]
+    " Search for all Book items which match the where clause. "
+    allBooks(first: Int, orderBy: String, search: String, skip: Int, sortBy: [SortBooksBy!], where: BookWhereInput): [Book]
+    "The version of the Keystone application serving this API."
+    appVersion: String
+}
+
+type Subscription {
+    anyBookChange: Book
+    anyBookDelete: Book
+    counter: Int
+    onBookChange(id: ID!): Book
+    onNewBook: Book
+    onSomeBookChanged(filter: BookCreateInput): Book
+}
+
+type _ListAccess {
+    """
+
+    Access Control settings for the currently logged in (or anonymous)
+    user when performing 'auth' operations.
+    """
+    auth: JSON
+    """
+
+    Access Control settings for the currently logged in (or anonymous)
+    user when performing 'create' operations.
+    NOTE: 'create' can only return a Boolean.
+    It is not possible to specify a declarative Where clause for this
+    operation
+    """
+    create: Boolean
+    """
+
+    Access Control settings for the currently logged in (or anonymous)
+    user when performing 'delete' operations.
+    """
+    delete: JSON
+    """
+
+    Access Control settings for the currently logged in (or anonymous)
+    user when performing 'read' operations.
+    """
+    read: JSON
+    """
+
+    Access Control settings for the currently logged in (or anonymous)
+    user when performing 'update' operations.
+    """
+    update: JSON
+}
+
+type _ListInputTypes {
+    "Create mutation input type name"
+    createInput: String
+    "Create many mutation input type name"
+    createManyInput: String
+    "Update mutation name input"
+    updateInput: String
+    "Update many mutation name input"
+    updateManyInput: String
+    "Input type for matching multiple items"
+    whereInput: String
+    "Input type for matching a unique item"
+    whereUniqueInput: String
+}
+
+type _ListMeta {
+    "Access control configuration for the currently authenticated request"
+    access: _ListAccess
+    "The list's user-facing description"
+    description: String
+    "The Keystone list key"
+    key: String
+    "The list's display name in the Admin UI"
+    label: String
+    "The Keystone List name"
+    name: String @deprecated(reason : "Use `key` instead")
+    "The list's data path"
+    path: String
+    "The list's plural display name"
+    plural: String
+    "Information on the generated GraphQL schema"
+    schema: _ListSchema
+    "The list's singular display name"
+    singular: String
+}
+
+type _ListMutations {
+    "Create mutation name"
+    create: String
+    "Create many mutation name"
+    createMany: String
+    "Delete mutation name"
+    delete: String
+    "Delete many mutation name"
+    deleteMany: String
+    "Update mutation name"
+    update: String
+    "Update many mutation name"
+    updateMany: String
+}
+
+type _ListQueries {
+    "Single-item query name"
+    item: String
+    "All-items query name"
+    list: String
+    "List metadata query name"
+    meta: String
+}
+
+type _ListSchema {
+    "Information about fields defined on this list"
+    fields(where: _ListSchemaFieldsInput): [_ListSchemaFields]
+    "Top-level GraphQL input types"
+    inputTypes: _ListInputTypes
+    "Top-level GraphQL mutation names"
+    mutations: _ListMutations
+    """
+
+    Top level GraphQL query names which either return this type, or
+    provide aggregate information about this type
+    """
+    queries: _ListQueries
+    """
+
+    Information about fields on other types which return this type, or
+    provide aggregate information about this type
+    """
+    relatedFields: [_ListSchemaRelatedFields]
+    "The typename as used in GraphQL queries"
+    type: String
+}
+
+type _ListSchemaFields {
+    "The name of the field in its list"
+    name: String @deprecated(reason : "Use `path` instead")
+    "The path of the field in its list"
+    path: String
+    "The field type (ie, Checkbox, Text, etc)"
+    type: String
+}
+
+type _ListSchemaRelatedFields {
+    "A list of GraphQL field names"
+    fields: [String]
+    "The typename as used in GraphQL queries"
+    type: String
+}
+
+type _QueryMeta {
+    count: Int
+}
+
+enum CacheControlScope {
+    PRIVATE
+    PUBLIC
+}
+
+enum SortBooksBy {
+    author_ASC
+    author_DESC
+    date_ASC
+    date_DESC
+    id_ASC
+    id_DESC
+    name_ASC
+    name_DESC
+}
+
+input BookCreateInput {
+    author: String
+    date: String
+    name: String
+}
+
+input BookUpdateInput {
+    author: String
+    date: String
+    name: String
+}
+
+input BookWhereInput {
+    AND: [BookWhereInput]
+    OR: [BookWhereInput]
+    author: String
+    author_contains: String
+    author_contains_i: String
+    author_ends_with: String
+    author_ends_with_i: String
+    author_i: String
+    author_in: [String]
+    author_not: String
+    author_not_contains: String
+    author_not_contains_i: String
+    author_not_ends_with: String
+    author_not_ends_with_i: String
+    author_not_i: String
+    author_not_in: [String]
+    author_not_starts_with: String
+    author_not_starts_with_i: String
+    author_starts_with: String
+    author_starts_with_i: String
+    date: String
+    date_gt: String
+    date_gte: String
+    date_in: [String]
+    date_lt: String
+    date_lte: String
+    date_not: String
+    date_not_in: [String]
+    id: ID
+    id_in: [ID]
+    id_not: ID
+    id_not_in: [ID]
+    name: String
+    name_contains: String
+    name_contains_i: String
+    name_ends_with: String
+    name_ends_with_i: String
+    name_i: String
+    name_in: [String]
+    name_not: String
+    name_not_contains: String
+    name_not_contains_i: String
+    name_not_ends_with: String
+    name_not_ends_with_i: String
+    name_not_i: String
+    name_not_in: [String]
+    name_not_starts_with: String
+    name_not_starts_with_i: String
+    name_starts_with: String
+    name_starts_with_i: String
+}
+
+input BookWhereUniqueInput {
+    id: ID!
+}
+
+input BooksCreateInput {
+    data: BookCreateInput
+}
+
+input BooksUpdateInput {
+    data: BookUpdateInput
+    id: ID!
+}
+
+input _ListSchemaFieldsInput {
+    type: String
+}
+
+input _ksListsMetaInput {
+    "Whether this is an auxiliary helper list"
+    auxiliary: Boolean
+    key: String
+}
+
+
+"The `JSON` scalar type represents JSON values as specified by [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf)."
+scalar JSON
+
+"The `Upload` scalar type represents a file upload."
+scalar Upload
