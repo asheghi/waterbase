@@ -9,10 +9,11 @@ module.exports.initSubscriptionServer = function (httpServer, keystone,) {
             subscribe,
             schema: keystone._schemas.public,
             onConnect: (connectionPrams, webSocket) => {
+                //todo authorization based on AuthList
                 const {Authorization} = connectionPrams;
-                if (Authorization) {
+                /*if (Authorization) {
 
-                }
+                }*/
                 let context = keystone.createContext({
                     authentication: {
                         item: {name: 'john', email: 'doe@gmail.com'},

@@ -1,8 +1,8 @@
 {
-  "name": "water-base",
+  "name": "waterbase",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "realtime db with keystone.js!",
+  "main": "export.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

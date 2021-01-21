@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65b6630-e901-47b1-a241-a6268a75479a" name="Default Changelist" comment="" />
+    <list default="true" id="a65b6630-e901-47b1-a241-a6268a75479a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/export.js" beforeDir="false" afterPath="$PROJECT_DIR$/export.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nI0QFxsOssACQ3F1l8D4NzlWci" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,14 +86,32 @@
       <updated>1611062279755</updated>
       <workItem from="1611062281019" duration="18382000" />
       <workItem from="1611221763799" duration="580000" />
-      <workItem from="1611223409557" duration="190000" />
+      <workItem from="1611223409557" duration="947000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1611223840584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611223840584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="21" width="912" height="1045" key="CommitChangelistDialog2" timestamp="1611223840457">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="499" y="21" width="912" height="1045" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611223840457" />
     <state x="713" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1611091029418">
       <screen x="0" y="27" width="1860" height="1053" />
     </state>
@@ -169,14 +196,26 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1897" height="488" key="GridCell.Tab.4.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611086744366" />
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1611223843508">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611223843508" />
     <state x="652" y="263" width="616" height="612" key="find.popup" timestamp="1611085224322">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="652" y="263" width="616" height="612" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611085224322" />
+    <state x="764" y="450" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611223854224">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="764" y="450" width="381" height="187" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611223854224" />
     <state x="624" y="245" key="run.anything.popup" timestamp="1611083449705">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="624" y="245" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611083449705" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1611223848035">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611223848035" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
