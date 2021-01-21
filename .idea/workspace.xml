@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a65b6630-e901-47b1-a241-a6268a75479a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,7 @@
       <updated>1611062279755</updated>
       <workItem from="1611062281019" duration="18382000" />
       <workItem from="1611221763799" duration="580000" />
-      <workItem from="1611223409557" duration="2663000" />
+      <workItem from="1611223409557" duration="2977000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1611223840584</created>
@@ -120,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611225952251</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated README.md">
+      <created>1611226135469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611226135469</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated README.md">
+      <created>1611226290311</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611226290311</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,10 +150,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated README.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="21" width="912" height="1045" key="CommitChangelistDialog2" timestamp="1611225952216">
+    <state x="499" y="21" width="912" height="1045" key="CommitChangelistDialog2" timestamp="1611226290278">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="499" y="21" width="912" height="1045" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611225952216" />
+    <state x="499" y="21" width="912" height="1045" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611226290278" />
     <state x="713" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1611091029418">
       <screen x="0" y="27" width="1860" height="1053" />
     </state>
@@ -223,10 +238,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1897" height="488" key="GridCell.Tab.4.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611086744366" />
-    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1611225953459">
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1611226291515">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611225953459" />
+    <state x="555" y="272" width="800" height="543" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611226291515" />
+    <state x="613" y="157" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611226385362">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="613" y="157" width="683" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611226385362" />
+    <state x="739" y="453" width="431" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611226087897">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="739" y="453" width="431" height="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1611226087897" />
     <state x="652" y="263" width="616" height="612" key="find.popup" timestamp="1611085224322">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

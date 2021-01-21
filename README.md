@@ -1,11 +1,11 @@
 <div align="center">
     <h1>WaterBase</h1>
 </div>
-<h4>an attempt to create an alternative for <b>CloudFlare realtime database, Cloud FireStore</b></h4>
+<h5>an attempt to create an alternative for <b>CloudFlare realtime database, Cloud FireStore</b></h5>
 
-you can add `Subscription` to Keystone.js CMS GraphQL api.
+<h4>add `Subscription` to Keystone.js CMS GraphQL api</h4>
 
-bonus: an Exmaple for Vue.js Apollo Client is also included in the `/example/vue-client` directory. 
+<i>an Exmaple for Vue.js Apollo Client is also included in the `/example/vue-client` directory.</i> 
 
 <h2>Usage:</h2>
 
