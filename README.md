@@ -7,9 +7,9 @@ you can add `Subscription` to Keystone.js CMS GraphQL api.
 
 bonus: an Exmaple for Vue.js Apollo Client is also included in the `/example/vue-client` directory. 
 
-##Usage:
+<h2>Usage:</h2>
 
-###Step 1:
+<h3>Step 2:</h3>
  
 you need to go with the custom http server mode with keystone.js.
 then call `initSubscriptionServer` with your http server and keystone object.
@@ -33,13 +33,13 @@ keystone
         })
 });
 ```
-###Step 2:
+<h3>Step 2:</h3>
 
 to add Model Subscription you need to call `addModelToSubscription` method with your list.
 
 Example:
 ```js
- const model = {
+const model = {
     fields: {
         name: {
             type: Text,
@@ -54,7 +54,7 @@ const list = keystone.createList('Book', model);
 addModelToSubscription({keystone, list});
 ```
 
-###Step 3:
+<h3>Step 3:</h3>
 
 now you can listen for subscriptions in your GraphQL api.
 
