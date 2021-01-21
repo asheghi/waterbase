@@ -9,7 +9,7 @@ bonus: an Exmaple for Vue.js Apollo Client is also included in the `/example/vue
 
 <h2>Usage:</h2>
 
-<h3>Step 2:</h3>
+<h3>Step 1:</h3>
  
 you need to go with the custom http server mode with keystone.js.
 then call `initSubscriptionServer` with your http server and keystone object.
@@ -50,7 +50,7 @@ const model = {
 };
 
 const list = keystone.createList('Book', model);
-
+//second step
 addModelToSubscription({keystone, list});
 ```
 
