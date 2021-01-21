@@ -56,7 +56,7 @@ addModelToSubscription({keystone, list});
 
 <h3>Step 3:</h3>
 
-now you can listen for subscriptions in your GraphQL api.
+now you can listen to subscriptions in your GraphQL api.
 
 <div align="center"><img src="https://i.ibb.co/bsnFDLq/Screenshot-from-2021-01-21-14-08-34.png" alt="Screenshot-from-2021-01-21-14-08-34" border="0"></div>
 
