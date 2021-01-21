@@ -3,7 +3,9 @@
 </div>
 <h4>an attempt to create an alternative for <b>CloudFlare realtime database, Cloud FireStore</b></h4>
 
-you can add Subscription to Keystone.js CMS, and use Subscriptions in the GraphQL api
+you can add `Subscription` to Keystone.js CMS GraphQL api.
+
+bonus: an Exmaple for Vue.js Apollo Client is also included in the `/example/vue-client` directory. 
 
 ##Usage:
 ###Step 1: 
