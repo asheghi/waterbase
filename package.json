@@ -1,26 +1,29 @@
 {
   "name": "waterbase",
   "version": "1.0.0",
-  "description": "realtime db with keystone.js!",
+  "description": "<div align=\"center\">     <h1>WaterBase</h1> </div> <h5>an attempt to create an alternative for <b>CloudFlare realtime database, Cloud FireStore</b></h5>",
   "main": "export.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semycolon/waterbase.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semycolon/waterbase/issues"
+  },
+  "homepage": "https://github.com/semycolon/waterbase#readme",
   "dependencies": {
-    "@keystonejs/adapter-mongoose": "^10.1.2",
-    "@keystonejs/app-admin-ui": "^7.3.13",
-    "@keystonejs/app-graphql": "^6.2.1",
-    "@keystonejs/auth-password": "^6.0.0",
-    "@keystonejs/fields": "^21.0.1",
-    "@keystonejs/keystone": "^18.1.0",
-    "apollo-server": "^2.19.2",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "graphql": "^15.4.0",
-    "graphql-playground-middleware-express": "^1.7.22",
+    "apollo-server": "^2.22.2",
+    "graphql": "^15.5.0",
     "object-hash": "^2.1.1",
     "subscriptions-transport-ws": "^0.9.18"
   }

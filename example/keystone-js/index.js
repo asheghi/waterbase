@@ -4,6 +4,7 @@ const {MongooseAdapter} = require('@keystonejs/adapter-mongoose');
 
 const keystone = new Keystone({
     adapter: new MongooseAdapter({mongoUri: 'mongodb://localhost/waterbase'}),
+    cookiesSecret:'notsecure'
 });
 
 const gql = require('graphql-tag')

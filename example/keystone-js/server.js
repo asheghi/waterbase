@@ -3,7 +3,7 @@ const http = require('http');
 const express = require('express');
 const {keystone, apps} = require('./index.js');
 const registerModels = require('./models');
-const {initSubscriptionServer} = require("./export");
+const {initSubscriptionServer} = require("../../export");
 
 registerModels(keystone);
 
@@ -32,7 +32,7 @@ keystone
         const httpServer = http.createServer(app);
 
 
-        httpServer.listen(3000, () => {
+        httpServer.listen(3000, '0.0.0.0',() => {
             console.log('listening on http://localhost:3000');
             initSubscriptionServer(httpServer,keystone);
         })

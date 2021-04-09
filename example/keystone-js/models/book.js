@@ -1,5 +1,5 @@
+const {addModelToSubscription} = require("../../../export");
 const {Text, Checkbox, CalendarDay} = require('@keystonejs/fields');
-const {addModelToSubscription} = require("../lib/utils");
 
 module.exports = keystone => {
     const model = {
